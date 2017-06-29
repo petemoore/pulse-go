@@ -214,7 +214,7 @@
 // interface implementation which can enable custom handling of exchange names,
 // routing keys, and unmarshaling of objects. The taskcluster go client relies
 // heavily on this, for example. See
-// http://godoc.org/github.com/taskcluster/taskcluster-client-go/queueevents#example-package--TaskClusterSniffer
+// http://godoc.org/github.com/taskcluster/taskcluster-client-go/queueevents#example-package--TaskclusterSniffer
 // for inspiration.
 //
 // In this example above, we simply output the information we receive, and then
