@@ -1,5 +1,7 @@
 # pulse-go
-<img hspace="20" align="left" src="https://tools.taskcluster.net/lib/assets/taskcluster-120.png" />
+
+[![logo](https://tools.taskcluster.net/b2d854df0391f8b777f39a486ebbc868.png)](https://tools.taskcluster.net/b2d854df0391f8b777f39a486ebbc868.png)
+
 [![Build Status](https://secure.travis-ci.org/taskcluster/pulse-go.png)](http://travis-ci.org/taskcluster/pulse-go)
 [![GoDoc](https://godoc.org/github.com/taskcluster/pulse-go?status.png)](https://godoc.org/github.com/taskcluster/pulse-go)
 
