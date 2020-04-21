@@ -238,7 +238,9 @@ func (c *Connection) Consume(
 
 	// TODO: this needs to be synchronised
 	if !c.connected {
-		c.connect()
+		if err := c.connect(); err != nil {
+			return pulseQueue, Error(err, "Failed to connect to pulse")
+		}
 	}
 
 	ch, err := c.AMQPConn.Channel()
